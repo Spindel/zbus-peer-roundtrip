@@ -13,3 +13,11 @@ more data",  when I realized that it might just work both ways at the same
 time.
 
 And it works.
+
+run with the daemon in one terminal:
+
+    $ cargo run --bin daemon
+
+and the client in another
+
+    $ cargo run --bin client
